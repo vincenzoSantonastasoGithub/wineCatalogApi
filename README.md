@@ -17,7 +17,7 @@ git clone git@github.com:vincenzoSantonastasoGithub/wineCatalogApi.git
 # Build/Start with Docker: 
 
  - docker build -t "wine_container:docker" .
- - docker build -t "wine_container:docker" .
+ - docker run -p 5000:5000 wine_container:docker
 
 
 ### Run the tests
