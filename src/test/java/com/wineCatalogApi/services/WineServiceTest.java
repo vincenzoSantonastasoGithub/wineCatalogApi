@@ -1,7 +1,7 @@
 package com.wineCatalogApi.services;
 
 
-import com.wineCatalogApi.config.WinesCatalog;
+import com.wineCatalogApi.config.WineCatalogApplication;
 import com.wineCatalogApi.domain.Wine;
 import com.wineCatalogApi.domain.WineType;
 import com.wineCatalogApi.dto.CompleteWineDto;
@@ -26,7 +26,7 @@ import static org.mockito.BDDMockito.given;
 import static org.hamcrest.Matchers.*;
 
 @RunWith(SpringRunner.class)
-@ContextConfiguration(classes = WinesCatalog.class)
+@ContextConfiguration(classes = WineCatalogApplication.class)
 public class WineServiceTest {
 
     @Autowired

@@ -1,1 +1,1 @@
-web: java -jar build/libs/winesCatalogApi-0.0.1-SNAPSHOT.war
+web: java -jar build/libs/wineCatalogApi-0.0.1-SNAPSHOT.war

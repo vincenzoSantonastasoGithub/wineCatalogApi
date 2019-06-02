@@ -1,6 +1,6 @@
 package com.wineCatalogApi.controllers;
 
-import com.wineCatalogApi.config.WinesCatalog;
+import com.wineCatalogApi.config.WineCatalogApplication;
 import com.wineCatalogApi.dto.CompleteWineDto;
 import com.wineCatalogApi.dto.WineDto;
 import com.wineCatalogApi.dto.WineRequestDto;
@@ -30,7 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.hamcrest.Matchers.*;
 
 @RunWith(SpringRunner.class)
-@ContextConfiguration(classes = WinesCatalog.class)
+@ContextConfiguration(classes = WineCatalogApplication.class)
 @WebMvcTest(WineController.class)
 public class WineControllerTest {
 

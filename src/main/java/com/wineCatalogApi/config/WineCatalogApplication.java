@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WinesCatalog {
+public class WineCatalogApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WinesCatalog.class, args);
+        SpringApplication.run(WineCatalogApplication.class, args);
     }
 
 }
