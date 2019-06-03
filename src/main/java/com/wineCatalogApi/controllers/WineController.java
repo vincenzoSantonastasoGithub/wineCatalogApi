@@ -62,7 +62,7 @@ public class WineController {
     @ApiImplicitParams({
             @ApiImplicitParam(name = "id", value = "Id of the wine to be canceled", dataType = "String", required = true, paramType = "path")
     })
-    public void deleteVehicle(@PathVariable String id) {
+    public void deleteWine (@PathVariable String id) {
         wineService.deleteWine(id);
     }
 }
