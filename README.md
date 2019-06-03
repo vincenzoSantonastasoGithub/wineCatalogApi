@@ -9,16 +9,18 @@ Checkout project from Git repository with the following command:
 
 git clone git@github.com:vincenzoSantonastasoGithub/wineCatalogApi.git
 
-# Build/Run with Gradle:
+# Build with Gradle:
 
  - gradle build
+ 
+ # Run with Gradle: 
+ 
  - gradle bootRun
  
-# Build/Run with Docker: 
+# Run with Docker: 
 
- - docker build -t "wine_container:docker" .
- - docker run -p 5000:5000 wine_container:docker
-
+ - docker build -t "wine_image:wine" .
+ - docker run -p 5000:5000 wine_image:wine
 
 # Run the tests
 
