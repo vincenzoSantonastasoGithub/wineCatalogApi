@@ -16,7 +16,8 @@ public class WineRepositoryImpl implements WineRepository {
     private static List<WineType> wineTypes = Arrays.asList(new WineType("cod1", "Red Wine", "Red Wine Desc"),
             new WineType("cod2", "White Wine", "White Wine Desc"));
 
-    private static List<Wine> wineList = new LinkedList<>(Arrays.asList());
+    private static List<Wine> wineList = new LinkedList<>(Arrays.asList(new Wine("f90983c8-09dc-4c8d-9648-3cddb5e4ce1b", "Bonarda",
+            "Bonarda DOC", new WineType("cod1", "Red Wine", "Red Wine Desc"), Arrays.asList() )));
 
     @Override
     @Transactional(readOnly = true)
