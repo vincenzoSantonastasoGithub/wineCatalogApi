@@ -1,7 +1,7 @@
-# Wine Catalog Api
+# Wine Catalog
 
 REST API used by the warehouse system to perform CRUD (create/read/update/delete)
-operations on the bottles of wine
+operations on wine catalog
 
 # Build with Gradle:
 
